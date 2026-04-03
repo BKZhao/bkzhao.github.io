@@ -1,4 +1,4 @@
-# bingkunzhao.github.io
+# BKZhao.github.io
 
 Personal academic homepage hosted with GitHub Pages.
 
@@ -14,10 +14,10 @@ Then visit `http://localhost:8000`.
 
 ## Publish
 
-This repository name already matches the user-site convention:
+This repository name matches the user-site convention:
 
-- Repository: `bingkunzhao.github.io`
-- URL: `https://bingkunzhao.github.io`
+- Repository: `BKZhao.github.io`
+- URL: `https://bkzhao.github.io`
 
 After pushing to `main`, enable GitHub Pages in:
 
