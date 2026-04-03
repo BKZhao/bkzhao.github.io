@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bingkun Zhao | CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=STIX+Two+Text:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f5f7fc;
+        --text: #152139;
+        --text-soft: #4a5771;
+        --line: #dbe2ef;
+        --card: #ffffff;
+        --accent: #986f34;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: "Source Sans 3", "Segoe UI", sans-serif;
+        line-height: 1.65;
+      }
+
+      .wrap {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 1.25rem 1.1rem 2rem;
+      }
+
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+
+      .topbar a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 1rem;
+        padding: 1.15rem 1.2rem;
+      }
+
+      h1,
+      h2 {
+        font-family: "STIX Two Text", Georgia, serif;
+        color: #1f2f4e;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+
+      h2 {
+        margin: 1rem 0 0.35rem;
+        font-size: 1.35rem;
+      }
+
+      p {
+        margin: 0.3rem 0 0;
+        color: var(--text-soft);
+      }
+
+      ul {
+        margin: 0.45rem 0 0;
+      }
+
+      li + li {
+        margin-top: 0.2rem;
+      }
+
+      @media (max-width: 620px) {
+        .topbar {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="topbar">
+        <a href="index.html">← Back to Home</a>
+        <a href="mailto:your-email@my.cityu.edu.hk">Email</a>
+      </div>
+      <section class="card">
+        <h1>Bingkun Zhao</h1>
+        <p>
+          Incoming PhD Student, City University of Hong Kong (CityUHK)
+        </p>
+        <p>Hong Kong Institute of AI for Science</p>
+
+        <h2>Research Interests</h2>
+        <ul>
+          <li>Medical AI: Medical LLM reasoning, Knowledge Graph, LLM Agents, EHR analysis</li>
+          <li>Computational Social Science: innovation dynamics</li>
+          <li>Complex Systems: social physics, information diffusion, infectious disease modeling</li>
+        </ul>
+
+        <h2>Advisors</h2>
+        <ul>
+          <li>Prof Jun YAN</li>
+          <li>Dr Yao WANG</li>
+          <li>Prof Maolin WANG</li>
+        </ul>
+
+        <h2>Previous Mentorship</h2>
+        <ul>
+          <li>Prof Hao PENG, Department of Data Science, CityUHK</li>
+        </ul>
+
+        <h2>Note</h2>
+        <p>
+          Replace this page with your full publication list, education history,
+          honors, and service entries. You can also upload a PDF version and
+          link it from the homepage.
+        </p>
+      </section>
+    </div>
+  </body>
+</html>

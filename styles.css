@@ -122,10 +122,14 @@ a {
   margin-bottom: 0.9rem;
 }
 
-.avatar {
+.avatar,
+.avatar-photo {
   width: 108px;
   height: 108px;
   border-radius: 1.1rem;
+}
+
+.avatar {
   display: grid;
   place-items: center;
   font-size: 1.85rem;
@@ -133,6 +137,12 @@ a {
   color: #fff;
   letter-spacing: 0.06em;
   background: linear-gradient(145deg, #2b3f66, #7d90ad 65%, #b38749);
+}
+
+.avatar-photo {
+  object-fit: cover;
+  border: 1px solid var(--line);
+  box-shadow: 0 8px 18px rgba(31, 47, 78, 0.1);
 }
 
 .profile-panel h1 {
@@ -354,6 +364,24 @@ a {
 .pub-venue {
   margin-top: 0.3rem;
   color: var(--text-soft);
+}
+
+.pub-actions {
+  margin-top: 0.45rem;
+  margin-bottom: 0;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.pub-actions a {
+  color: var(--accent-dark);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.pub-actions a:hover {
+  color: var(--primary);
 }
 
 .contact-list {

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-labelledby="title desc">
+  <title id="title">Bingkun Zhao Portrait Placeholder</title>
+  <desc id="desc">A geometric profile placeholder for academic homepage.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b3f66" />
+      <stop offset="65%" stop-color="#7d90ad" />
+      <stop offset="100%" stop-color="#b38749" />
+    </linearGradient>
+  </defs>
+  <rect width="480" height="480" rx="68" fill="url(#bg)" />
+  <circle cx="240" cy="184" r="84" fill="#e8edf7" opacity="0.93" />
+  <path
+    d="M104 410c8-78 66-128 136-128s128 50 136 128"
+    fill="#e8edf7"
+    opacity="0.93"
+  />
+  <text
+    x="240"
+    y="92"
+    text-anchor="middle"
+    fill="#fefefe"
+    font-family="Georgia, serif"
+    font-size="40"
+    font-weight="700"
+  >
+    BZ
+  </text>
+</svg>
