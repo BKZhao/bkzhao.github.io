@@ -260,6 +260,15 @@ a {
   color: var(--primary);
 }
 
+.advisor-link {
+  color: var(--accent-dark);
+  text-decoration: none;
+}
+
+.advisor-link:hover {
+  color: var(--accent);
+}
+
 .news-list {
   display: grid;
   gap: 0.65rem;
