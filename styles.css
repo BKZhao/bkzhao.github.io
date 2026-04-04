@@ -92,7 +92,9 @@ a {
 }
 
 .nav-links a i {
-  font-size: 0.88rem;
+  font-size: 0.84rem;
+  color: var(--accent-dark);
+  opacity: 0.95;
 }
 
 .page-shell {
@@ -189,10 +191,7 @@ a {
 }
 
 .profile-links li {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 0.7rem;
+  display: block;
   padding: 0.6rem 0;
 }
 
@@ -200,23 +199,25 @@ a {
   border-top: 1px dashed var(--line);
 }
 
-.profile-links span {
-  color: var(--text-soft);
-  font-size: 0.9rem;
+.profile-links .meta-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
-}
-
-.profile-links a {
-  color: var(--primary);
+  gap: 0.5rem;
+  color: var(--text-soft);
   text-decoration: none;
+  font-size: 0.94rem;
   font-weight: 600;
-  word-break: break-word;
-  text-align: right;
+  transition: color 0.2s ease;
 }
 
-.profile-links a:hover {
+.profile-links .meta-link i {
+  color: var(--accent-dark);
+  font-size: 0.9rem;
+  width: 1.05rem;
+  text-align: center;
+}
+
+.profile-links .meta-link:hover {
   color: var(--accent-dark);
 }
 
@@ -241,7 +242,8 @@ a {
 
 .card h2 i {
   color: var(--accent-dark);
-  font-size: 1rem;
+  font-size: 0.94rem;
+  opacity: 0.95;
 }
 
 .card p {
@@ -362,9 +364,11 @@ a {
 
 .contact-list i {
   color: var(--accent-dark);
-  width: 1.05rem;
+  width: 1.02rem;
   text-align: center;
-  margin-right: 0.2rem;
+  margin-right: 0.18rem;
+  font-size: 0.9rem;
+  opacity: 0.95;
 }
 
 .contact-list a:hover {
