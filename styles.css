@@ -1,14 +1,14 @@
 :root {
-  --bg: #f5f7fc;
-  --bg-alt: #edf2fb;
+  --bg: #ffffff;
+  --bg-alt: #f4faf6;
   --card: #ffffff;
-  --text: #152139;
-  --text-soft: #45526e;
-  --primary: #1f2f4e;
-  --accent: #b38749;
-  --accent-dark: #986f34;
-  --line: #dde4f0;
-  --shadow: 0 14px 36px rgba(23, 34, 58, 0.08);
+  --text: #173227;
+  --text-soft: #4a6559;
+  --primary: #1f644b;
+  --accent: #2e8a64;
+  --accent-dark: #1d6d4d;
+  --line: #d8e9df;
+  --shadow: 0 14px 30px rgba(28, 92, 66, 0.09);
 }
 
 *,
@@ -24,11 +24,12 @@ html {
 body {
   margin: 0;
   color: var(--text);
-  font-family: "Source Sans 3", "Segoe UI", sans-serif;
-  line-height: 1.65;
+  font-family: "Manrope", "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.72;
   background:
-    radial-gradient(circle at 12% -4%, #dbe8ff 0, rgba(219, 232, 255, 0) 34%),
-    radial-gradient(circle at 94% 8%, #efe1cc 0, rgba(239, 225, 204, 0) 30%),
+    radial-gradient(circle at 10% -5%, #e5f5ea 0, rgba(229, 245, 234, 0) 38%),
+    radial-gradient(circle at 98% 8%, #eef8f2 0, rgba(238, 248, 242, 0) 34%),
     linear-gradient(180deg, var(--bg) 0%, var(--bg-alt) 100%);
   min-height: 100vh;
 }
@@ -36,7 +37,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "STIX Two Text", Georgia, serif;
+  font-family: "Libre Baskerville", Georgia, serif;
   line-height: 1.2;
   color: var(--primary);
 }
@@ -49,9 +50,9 @@ a {
   position: sticky;
   top: 0;
   z-index: 20;
-  border-bottom: 1px solid rgba(31, 47, 78, 0.08);
+  border-bottom: 1px solid rgba(31, 100, 75, 0.14);
   backdrop-filter: blur(8px);
-  background: rgba(245, 247, 252, 0.8);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .nav {
@@ -65,8 +66,8 @@ a {
 
 .nav-logo {
   text-decoration: none;
-  font-family: "STIX Two Text", Georgia, serif;
-  font-size: 1.15rem;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 1.18rem;
   font-weight: 700;
   letter-spacing: 0.01em;
 }
@@ -80,7 +81,8 @@ a {
 .nav-links a {
   text-decoration: none;
   color: var(--text-soft);
-  font-weight: 500;
+  font-size: 0.95rem;
+  font-weight: 600;
   transition: color 0.2s ease;
 }
 
@@ -124,9 +126,9 @@ a {
 
 .avatar,
 .avatar-photo {
-  width: 108px;
-  height: 108px;
-  border-radius: 1.1rem;
+  width: 116px;
+  height: 116px;
+  border-radius: 1.35rem;
 }
 
 .avatar {
@@ -142,19 +144,20 @@ a {
 .avatar-photo {
   object-fit: cover;
   border: 1px solid var(--line);
-  box-shadow: 0 8px 18px rgba(31, 47, 78, 0.1);
+  box-shadow: 0 10px 20px rgba(30, 102, 74, 0.12);
 }
 
 .profile-panel h1 {
   margin: 0;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.95rem;
 }
 
 .role {
   text-align: center;
-  margin: 0.35rem 0 0;
+  margin: 0.4rem 0 0;
   color: var(--accent-dark);
+  font-size: 1.02rem;
   font-weight: 700;
   letter-spacing: 0.02em;
 }
@@ -162,9 +165,9 @@ a {
 .affiliation,
 .unit {
   text-align: center;
-  margin: 0.15rem 0 0;
+  margin: 0.2rem 0 0;
   color: var(--text-soft);
-  font-size: 0.98rem;
+  font-size: 0.97rem;
 }
 
 .unit {
@@ -193,7 +196,7 @@ a {
 
 .profile-links span {
   color: var(--text-soft);
-  font-size: 0.93rem;
+  font-size: 0.9rem;
 }
 
 .profile-links a {
@@ -219,13 +222,14 @@ a {
 }
 
 .card h2 {
-  margin: 0 0 0.65rem;
-  font-size: clamp(1.45rem, 2.9vw, 1.9rem);
+  margin: 0 0 0.55rem;
+  font-size: clamp(1.3rem, 2.4vw, 1.65rem);
 }
 
 .card p {
   margin: 0.45rem 0 0;
   color: var(--text-soft);
+  font-size: 1rem;
 }
 
 .card strong {
@@ -333,7 +337,7 @@ a {
 }
 
 .contact-list a {
-  color: var(--primary);
+  color: var(--accent-dark);
   text-decoration: none;
   font-weight: 600;
 }
@@ -345,7 +349,7 @@ a {
 .site-footer {
   text-align: center;
   color: var(--text-soft);
-  font-size: 0.92rem;
+  font-size: 0.88rem;
   padding: 1.25rem 1rem 2.4rem;
 }
 
