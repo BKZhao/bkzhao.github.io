@@ -1,14 +1,14 @@
 :root {
   --bg: #ffffff;
-  --bg-alt: #f4faf6;
+  --bg-alt: #ffffff;
   --card: #ffffff;
-  --text: #173227;
-  --text-soft: #4a6559;
-  --primary: #1f644b;
-  --accent: #2e8a64;
-  --accent-dark: #1d6d4d;
-  --line: #d8e9df;
-  --shadow: 0 14px 30px rgba(28, 92, 66, 0.09);
+  --text: #222222;
+  --text-soft: #505050;
+  --primary: #111111;
+  --accent: #2f8a66;
+  --accent-dark: #1f6e50;
+  --line: #e4ebe7;
+  --shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
 }
 
 *,
@@ -27,10 +27,7 @@ body {
   font-family: "Manrope", "Segoe UI", sans-serif;
   font-size: 16px;
   line-height: 1.72;
-  background:
-    radial-gradient(circle at 10% -5%, #e5f5ea 0, rgba(229, 245, 234, 0) 38%),
-    radial-gradient(circle at 98% 8%, #eef8f2 0, rgba(238, 248, 242, 0) 34%),
-    linear-gradient(180deg, var(--bg) 0%, var(--bg-alt) 100%);
+  background: var(--bg);
   min-height: 100vh;
 }
 
@@ -50,7 +47,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 20;
-  border-bottom: 1px solid rgba(31, 100, 75, 0.14);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(8px);
   background: rgba(255, 255, 255, 0.9);
 }
@@ -70,6 +67,7 @@ a {
   font-size: 1.18rem;
   font-weight: 700;
   letter-spacing: 0.01em;
+  color: #111111;
 }
 
 .nav-links {
@@ -84,10 +82,17 @@ a {
   font-size: 0.95rem;
   font-weight: 600;
   transition: color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.34rem;
 }
 
 .nav-links a:hover {
   color: var(--accent-dark);
+}
+
+.nav-links a i {
+  font-size: 0.88rem;
 }
 
 .page-shell {
@@ -151,6 +156,7 @@ a {
   margin: 0;
   text-align: center;
   font-size: 1.95rem;
+  color: #111111;
 }
 
 .role {
@@ -197,6 +203,9 @@ a {
 .profile-links span {
   color: var(--text-soft);
   font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
 }
 
 .profile-links a {
@@ -224,6 +233,15 @@ a {
 .card h2 {
   margin: 0 0 0.55rem;
   font-size: clamp(1.3rem, 2.4vw, 1.65rem);
+  color: #111111;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.card h2 i {
+  color: var(--accent-dark);
+  font-size: 1rem;
 }
 
 .card p {
@@ -340,6 +358,13 @@ a {
   color: var(--accent-dark);
   text-decoration: none;
   font-weight: 600;
+}
+
+.contact-list i {
+  color: var(--accent-dark);
+  width: 1.05rem;
+  text-align: center;
+  margin-right: 0.2rem;
 }
 
 .contact-list a:hover {
