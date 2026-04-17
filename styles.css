@@ -339,6 +339,14 @@ a {
 .pub-list {
   display: grid;
   gap: 0.75rem;
+  margin-top: 0.35rem;
+}
+
+.pub-section-title {
+  margin: 0.55rem 0 0.35rem;
+  font-size: 1rem;
+  color: var(--accent-dark);
+  letter-spacing: 0.01em;
 }
 
 .pub-item {
@@ -381,6 +389,12 @@ a {
 
 .pub-actions a:hover {
   color: var(--primary);
+}
+
+.pub-note {
+  margin-top: 0.45rem;
+  font-size: 0.9rem;
+  color: var(--text-soft);
 }
 
 .site-footer {
