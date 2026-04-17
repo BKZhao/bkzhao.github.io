@@ -373,6 +373,26 @@ a {
   color: var(--text-soft);
 }
 
+.venue-label {
+  display: inline-block;
+  padding: 0.11rem 0.46rem;
+  border-radius: 999px;
+  border: 1px solid #d8eae1;
+  background: #eef8f2;
+  color: var(--accent-dark);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-right: 0.35rem;
+  vertical-align: middle;
+}
+
+.journal-name {
+  color: var(--primary);
+  font-weight: 700;
+}
+
 .pub-actions {
   margin-top: 0.45rem;
   margin-bottom: 0;
