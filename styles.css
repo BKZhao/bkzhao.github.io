@@ -391,12 +391,6 @@ a {
   color: var(--primary);
 }
 
-.pub-note {
-  margin-top: 0.45rem;
-  font-size: 0.9rem;
-  color: var(--text-soft);
-}
-
 .site-footer {
   text-align: center;
   color: var(--text-soft);
